@@ -12,6 +12,7 @@ func ping(e event.Event) uint32 {
 	}
 
 	h.Write([]byte("PONG"))
+	printf("hello")
 
 	return 0
 }
